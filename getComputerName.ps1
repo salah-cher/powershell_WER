@@ -2,8 +2,6 @@
 #script will take current information about domain name from current computer
 #script takes OU name as argument if not supplied then default is WebApps
 
-
-
  param (
     [string]$ou = "WebApps",
     [string]$domainName = $( Read-Host "Input domain, please" )
